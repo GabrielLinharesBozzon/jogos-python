@@ -4,7 +4,6 @@ def jogar():
     print("***Bem vindo ao jogo da Forca!***")
     print("*********************************")
     palavras_para_forca = ["python", "javascript", "java", "ruby", "html", "css", "react", "angular", "django", "flask"]
-
     palavra_secreta=random.choice(palavras_para_forca) 
     #                       variável de descarte
     letras_acertadas = ["_" for _ in palavra_secreta]#compreensão de lista
